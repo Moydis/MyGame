@@ -9,11 +9,6 @@ QualitySettings:
   m_QualitySettings:
   - serializedVersion: 2
 =======
-<<<<<<< HEAD
-  m_CurrentQuality: 0
-  m_QualitySettings:
-  - serializedVersion: 2
-=======
   m_CurrentQuality: 5
   m_QualitySettings:
   - serializedVersion: 2
@@ -126,7 +121,6 @@ QualitySettings:
     excludedTargetPlatforms: []
   - serializedVersion: 2
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     name: High
     pixelLightCount: 2
     shadows: 2
@@ -144,12 +138,8 @@ QualitySettings:
 <<<<<<< HEAD
     antiAliasing: 2
 =======
-<<<<<<< HEAD
-    antiAliasing: 2
-=======
     antiAliasing: 0
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -175,12 +165,8 @@ QualitySettings:
 <<<<<<< HEAD
     pixelLightCount: 2
 =======
-<<<<<<< HEAD
-    pixelLightCount: 2
-=======
     pixelLightCount: 3
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     shadows: 2
     shadowResolution: 2
     shadowProjection: 1
@@ -196,12 +182,8 @@ QualitySettings:
 <<<<<<< HEAD
     antiAliasing: 4
 =======
-<<<<<<< HEAD
-    antiAliasing: 4
-=======
     antiAliasing: 2
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -227,12 +209,8 @@ QualitySettings:
 <<<<<<< HEAD
     pixelLightCount: 10
 =======
-<<<<<<< HEAD
-    pixelLightCount: 10
-=======
     pixelLightCount: 4
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     shadows: 2
     shadowResolution: 2
     shadowProjection: 1
@@ -248,12 +226,8 @@ QualitySettings:
 <<<<<<< HEAD
     antiAliasing: 8
 =======
-<<<<<<< HEAD
-    antiAliasing: 8
-=======
     antiAliasing: 2
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -276,9 +250,6 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     Android: 0
     GameCoreScarlett: 2
     GameCoreXboxOne: 2
@@ -295,8 +266,6 @@ QualitySettings:
     XboxOne: 2
     iPhone: 0
     tvOS: 0
-<<<<<<< HEAD
-=======
 =======
     Android: 2
     GameCoreScarlett: 5
@@ -315,4 +284,3 @@ QualitySettings:
     iPhone: 2
     tvOS: 2
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05

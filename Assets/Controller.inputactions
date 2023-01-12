@@ -2,15 +2,6 @@
     "name": "Controller",
     "maps": [
         {
-<<<<<<< HEAD
-            "name": "Gameplay",
-            "id": "b48d60f4-3e85-417e-b8c5-78a4b94677aa",
-            "actions": [
-                {
-                    "name": "MoveUp",
-                    "type": "Button",
-                    "id": "ecd87545-e58c-43d7-a821-2dd573c6c7f8",
-=======
             "name": "Vertical",
             "id": "9b0232ce-7a31-46dd-89fe-d8a66dc33e09",
             "actions": [
@@ -18,31 +9,15 @@
                     "name": "Left",
                     "type": "Button",
                     "id": "a285e2e3-32da-4dcd-b78c-065c95ff0f81",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-<<<<<<< HEAD
-                    "name": "MoveDown",
-                    "type": "Button",
-                    "id": "0dc7675e-de82-4024-b186-dc0304f5cc6c",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Shoot",
-                    "type": "Button",
-                    "id": "757e0d90-141a-4849-8dab-f893a9e15642",
-=======
                     "name": "Right",
                     "type": "Button",
                     "id": "492cfbe1-5afe-4133-99ed-12c581888c74",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -52,34 +27,17 @@
             "bindings": [
                 {
                     "name": "",
-<<<<<<< HEAD
-                    "id": "182928ad-3f44-4e09-8511-11d02ac3b463",
-                    "path": "<Gamepad>/dpad/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveUp",
-=======
                     "id": "6a213342-ac56-455d-95fc-8379025a29b0",
                     "path": "<Gamepad>/dpad/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Left",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-<<<<<<< HEAD
-                    "id": "5b83f40c-df19-4157-a982-760c76797fa4",
-                    "path": "<Gamepad>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "MoveDown",
-=======
                     "id": "5740f9c6-a310-484c-a071-7cbcff0f8b9e",
                     "path": "<Gamepad>/dpad/right",
                     "interactions": "",
@@ -123,20 +81,11 @@
                     "processors": "",
                     "groups": "",
                     "action": "Left",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-<<<<<<< HEAD
-                    "id": "dc280b0e-ff86-4c94-a460-f690d8d544ae",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Shoot",
-=======
                     "id": "8f02ff28-95b4-4e28-9f3c-6aca5fb8cc8e",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
@@ -309,7 +258,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "East",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

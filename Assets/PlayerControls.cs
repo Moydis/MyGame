@@ -24,15 +24,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     ""name"": ""Controller"",
     ""maps"": [
         {
-<<<<<<< HEAD
-            ""name"": ""Gameplay"",
-            ""id"": ""b48d60f4-3e85-417e-b8c5-78a4b94677aa"",
-            ""actions"": [
-                {
-                    ""name"": ""MoveUp"",
-                    ""type"": ""Button"",
-                    ""id"": ""ecd87545-e58c-43d7-a821-2dd573c6c7f8"",
-=======
             ""name"": ""Vertical"",
             ""id"": ""9b0232ce-7a31-46dd-89fe-d8a66dc33e09"",
             ""actions"": [
@@ -40,31 +31,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""Left"",
                     ""type"": ""Button"",
                     ""id"": ""a285e2e3-32da-4dcd-b78c-065c95ff0f81"",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-<<<<<<< HEAD
-                    ""name"": ""MoveDown"",
-                    ""type"": ""Button"",
-                    ""id"": ""0dc7675e-de82-4024-b186-dc0304f5cc6c"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Shoot"",
-                    ""type"": ""Button"",
-                    ""id"": ""757e0d90-141a-4849-8dab-f893a9e15642"",
-=======
                     ""name"": ""Right"",
                     ""type"": ""Button"",
                     ""id"": ""492cfbe1-5afe-4133-99ed-12c581888c74"",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -74,34 +49,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-<<<<<<< HEAD
-                    ""id"": ""182928ad-3f44-4e09-8511-11d02ac3b463"",
-                    ""path"": ""<Gamepad>/dpad/up"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveUp"",
-=======
                     ""id"": ""6a213342-ac56-455d-95fc-8379025a29b0"",
                     ""path"": ""<Gamepad>/dpad/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Left"",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-<<<<<<< HEAD
-                    ""id"": ""5b83f40c-df19-4157-a982-760c76797fa4"",
-                    ""path"": ""<Gamepad>/dpad/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveDown"",
-=======
                     ""id"": ""5740f9c6-a310-484c-a071-7cbcff0f8b9e"",
                     ""path"": ""<Gamepad>/dpad/right"",
                     ""interactions"": """",
@@ -145,20 +103,11 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Left"",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-<<<<<<< HEAD
-                    ""id"": ""dc280b0e-ff86-4c94-a460-f690d8d544ae"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Shoot"",
-=======
                     ""id"": ""8f02ff28-95b4-4e28-9f3c-6aca5fb8cc8e"",
                     ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
@@ -331,7 +280,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""East"",
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -340,13 +288,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-<<<<<<< HEAD
-        // Gameplay
-        m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
-        m_Gameplay_MoveUp = m_Gameplay.FindAction("MoveUp", throwIfNotFound: true);
-        m_Gameplay_MoveDown = m_Gameplay.FindAction("MoveDown", throwIfNotFound: true);
-        m_Gameplay_Shoot = m_Gameplay.FindAction("Shoot", throwIfNotFound: true);
-=======
         // Vertical
         m_Vertical = asset.FindActionMap("Vertical", throwIfNotFound: true);
         m_Vertical_Left = m_Vertical.FindAction("Left", throwIfNotFound: true);
@@ -361,7 +302,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         // East
         m_East = asset.FindActionMap("East", throwIfNotFound: true);
         m_East_East = m_East.FindAction("East", throwIfNotFound: true);
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     }
 
     public void Dispose()
@@ -418,61 +358,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-<<<<<<< HEAD
-    // Gameplay
-    private readonly InputActionMap m_Gameplay;
-    private IGameplayActions m_GameplayActionsCallbackInterface;
-    private readonly InputAction m_Gameplay_MoveUp;
-    private readonly InputAction m_Gameplay_MoveDown;
-    private readonly InputAction m_Gameplay_Shoot;
-    public struct GameplayActions
-    {
-        private @PlayerControls m_Wrapper;
-        public GameplayActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @MoveUp => m_Wrapper.m_Gameplay_MoveUp;
-        public InputAction @MoveDown => m_Wrapper.m_Gameplay_MoveDown;
-        public InputAction @Shoot => m_Wrapper.m_Gameplay_Shoot;
-        public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(GameplayActions set) { return set.Get(); }
-        public void SetCallbacks(IGameplayActions instance)
-        {
-            if (m_Wrapper.m_GameplayActionsCallbackInterface != null)
-            {
-                @MoveUp.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveUp;
-                @MoveUp.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveUp;
-                @MoveUp.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveUp;
-                @MoveDown.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveDown;
-                @MoveDown.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveDown;
-                @MoveDown.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveDown;
-                @Shoot.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-                @Shoot.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-                @Shoot.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-            }
-            m_Wrapper.m_GameplayActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @MoveUp.started += instance.OnMoveUp;
-                @MoveUp.performed += instance.OnMoveUp;
-                @MoveUp.canceled += instance.OnMoveUp;
-                @MoveDown.started += instance.OnMoveDown;
-                @MoveDown.performed += instance.OnMoveDown;
-                @MoveDown.canceled += instance.OnMoveDown;
-                @Shoot.started += instance.OnShoot;
-                @Shoot.performed += instance.OnShoot;
-                @Shoot.canceled += instance.OnShoot;
-            }
-        }
-    }
-    public GameplayActions @Gameplay => new GameplayActions(this);
-    public interface IGameplayActions
-    {
-        void OnMoveUp(InputAction.CallbackContext context);
-        void OnMoveDown(InputAction.CallbackContext context);
-        void OnShoot(InputAction.CallbackContext context);
-=======
     // Vertical
     private readonly InputActionMap m_Vertical;
     private IVerticalActions m_VerticalActionsCallbackInterface;
@@ -637,6 +522,5 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     public interface IEastActions
     {
         void OnEast(InputAction.CallbackContext context);
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     }
 }

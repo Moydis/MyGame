@@ -1,8 +1,5 @@
 using UnityEngine;
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
 using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
@@ -10,23 +7,17 @@ public class Gun : MonoBehaviour
 
     
 
-<<<<<<< HEAD
-=======
 =======
 
 public class Gun : MonoBehaviour
 {
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     public float damage = 10f;
     public float range = 100f;
 
     public Camera fpsCam;
 
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     void Start()
     {
        
@@ -36,11 +27,8 @@ public class Gun : MonoBehaviour
         }
 
     }
-<<<<<<< HEAD
-=======
 =======
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     // Update is called once per frame
     void Update()
     {
@@ -50,9 +38,6 @@ public class Gun : MonoBehaviour
 
         }
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
         if (Gamepad.all.Count > 0)
         {
             if (Gamepad.all[0].rightTrigger.isPressed)
@@ -62,11 +47,8 @@ public class Gun : MonoBehaviour
    
             
         }
-<<<<<<< HEAD
-=======
 =======
 >>>>>>> 1451bab198831dfe01de57e28820cd1434041ac9
->>>>>>> 4b88a7e643144132ca51beeadc12b444bd627a05
     }
     void Shoot()
     {
