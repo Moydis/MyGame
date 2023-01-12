@@ -17,8 +17,8 @@ public class KonamiCode : MonoBehaviour
         "Horizontal",
         "Horizontal",
         "Horizontal",
-        "South",
-        "East"
+        "B",
+        "A"
     };
 
     private float[] axes = new float[]

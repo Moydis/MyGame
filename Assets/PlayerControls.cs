@@ -24,31 +24,22 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     ""name"": ""Controller"",
     ""maps"": [
         {
-            ""name"": ""Gameplay"",
-            ""id"": ""b48d60f4-3e85-417e-b8c5-78a4b94677aa"",
+            ""name"": ""Vertical"",
+            ""id"": ""9b0232ce-7a31-46dd-89fe-d8a66dc33e09"",
             ""actions"": [
                 {
-                    ""name"": ""MoveUp"",
+                    ""name"": ""Left"",
                     ""type"": ""Button"",
-                    ""id"": ""ecd87545-e58c-43d7-a821-2dd573c6c7f8"",
+                    ""id"": ""a285e2e3-32da-4dcd-b78c-065c95ff0f81"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""MoveDown"",
+                    ""name"": ""Right"",
                     ""type"": ""Button"",
-                    ""id"": ""0dc7675e-de82-4024-b186-dc0304f5cc6c"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Shoot"",
-                    ""type"": ""Button"",
-                    ""id"": ""757e0d90-141a-4849-8dab-f893a9e15642"",
+                    ""id"": ""492cfbe1-5afe-4133-99ed-12c581888c74"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -58,34 +49,237 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""182928ad-3f44-4e09-8511-11d02ac3b463"",
-                    ""path"": ""<Gamepad>/dpad/up"",
+                    ""id"": ""6a213342-ac56-455d-95fc-8379025a29b0"",
+                    ""path"": ""<Gamepad>/dpad/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MoveUp"",
+                    ""action"": ""Left"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""5b83f40c-df19-4157-a982-760c76797fa4"",
-                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""id"": ""5740f9c6-a310-484c-a071-7cbcff0f8b9e"",
+                    ""path"": ""<Gamepad>/dpad/right"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""MoveDown"",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Horizontal"",
+            ""id"": ""9cd937bd-3718-49c0-a8ee-39558bd1ca87"",
+            ""actions"": [
+                {
+                    ""name"": ""Left"",
+                    ""type"": ""Button"",
+                    ""id"": ""865c6443-f662-40b9-b54b-631d372ca407"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Right"",
+                    ""type"": ""Button"",
+                    ""id"": ""67cb73b4-5e4e-4a4c-b7dd-c931e524b803"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""c89bd152-6b00-45c2-9b8c-016cf2b4ae17"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Left"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""dc280b0e-ff86-4c94-a460-f690d8d544ae"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""id"": ""8f02ff28-95b4-4e28-9f3c-6aca5fb8cc8e"",
+                    ""path"": ""<Keyboard>/leftArrow"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Shoot"",
+                    ""action"": ""Left"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f40c54dd-643d-4fe3-8fda-d5fb80ae01de"",
+                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2e406cd0-c465-4136-ae13-f2660b96b587"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""South"",
+            ""id"": ""80d25138-21cd-477f-a0dc-83d565fb1256"",
+            ""actions"": [
+                {
+                    ""name"": ""South"",
+                    ""type"": ""Button"",
+                    ""id"": ""28c26704-ed3b-49f6-95e2-b29f0e1db48a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""fa8100d3-16fb-4e2e-9016-5d40f9bde829"",
+                    ""path"": ""<DualShockGamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""South"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9e6f0fd6-f9e1-4fb0-ae50-ddd1b8f2d562"",
+                    ""path"": ""<DualSenseGamepadHID>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""South"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d8a0326b-21f0-40ce-aa0b-08cfa5b1f393"",
+                    ""path"": ""<SwitchProControllerHID>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""South"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""76d73601-9eb5-4853-8653-b1fd61e1c653"",
+                    ""path"": ""<Keyboard>/b"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""South"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8b7745e8-d4a6-497f-918e-3fb12ce431be"",
+                    ""path"": ""<XInputController>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""South"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""East"",
+            ""id"": ""029fc001-67a0-4e5e-a65a-b668810d185c"",
+            ""actions"": [
+                {
+                    ""name"": ""East"",
+                    ""type"": ""Button"",
+                    ""id"": ""4ddde7ea-fed7-4f2a-aee2-c4df76fb35b9"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""08a32481-aa77-40b2-b608-c3285922e3a3"",
+                    ""path"": ""<DualShockGamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""East"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f654d71c-c955-413b-8812-6e38f514d019"",
+                    ""path"": ""<DualSenseGamepadHID>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""East"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""10a95c6e-daed-49da-8493-4af8c63502d8"",
+                    ""path"": ""<XInputController>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""East"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""128f78b1-9dcf-4be0-8a94-e0b8556f891d"",
+                    ""path"": ""<SwitchProControllerHID>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""East"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0945708f-dea2-46f5-87e4-54c8b06ad762"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""East"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -94,11 +288,20 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // Gameplay
-        m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
-        m_Gameplay_MoveUp = m_Gameplay.FindAction("MoveUp", throwIfNotFound: true);
-        m_Gameplay_MoveDown = m_Gameplay.FindAction("MoveDown", throwIfNotFound: true);
-        m_Gameplay_Shoot = m_Gameplay.FindAction("Shoot", throwIfNotFound: true);
+        // Vertical
+        m_Vertical = asset.FindActionMap("Vertical", throwIfNotFound: true);
+        m_Vertical_Left = m_Vertical.FindAction("Left", throwIfNotFound: true);
+        m_Vertical_Right = m_Vertical.FindAction("Right", throwIfNotFound: true);
+        // Horizontal
+        m_Horizontal = asset.FindActionMap("Horizontal", throwIfNotFound: true);
+        m_Horizontal_Left = m_Horizontal.FindAction("Left", throwIfNotFound: true);
+        m_Horizontal_Right = m_Horizontal.FindAction("Right", throwIfNotFound: true);
+        // South
+        m_South = asset.FindActionMap("South", throwIfNotFound: true);
+        m_South_South = m_South.FindAction("South", throwIfNotFound: true);
+        // East
+        m_East = asset.FindActionMap("East", throwIfNotFound: true);
+        m_East_East = m_East.FindAction("East", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -155,58 +358,169 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // Gameplay
-    private readonly InputActionMap m_Gameplay;
-    private IGameplayActions m_GameplayActionsCallbackInterface;
-    private readonly InputAction m_Gameplay_MoveUp;
-    private readonly InputAction m_Gameplay_MoveDown;
-    private readonly InputAction m_Gameplay_Shoot;
-    public struct GameplayActions
+    // Vertical
+    private readonly InputActionMap m_Vertical;
+    private IVerticalActions m_VerticalActionsCallbackInterface;
+    private readonly InputAction m_Vertical_Left;
+    private readonly InputAction m_Vertical_Right;
+    public struct VerticalActions
     {
         private @PlayerControls m_Wrapper;
-        public GameplayActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @MoveUp => m_Wrapper.m_Gameplay_MoveUp;
-        public InputAction @MoveDown => m_Wrapper.m_Gameplay_MoveDown;
-        public InputAction @Shoot => m_Wrapper.m_Gameplay_Shoot;
-        public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
+        public VerticalActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Left => m_Wrapper.m_Vertical_Left;
+        public InputAction @Right => m_Wrapper.m_Vertical_Right;
+        public InputActionMap Get() { return m_Wrapper.m_Vertical; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(GameplayActions set) { return set.Get(); }
-        public void SetCallbacks(IGameplayActions instance)
+        public static implicit operator InputActionMap(VerticalActions set) { return set.Get(); }
+        public void SetCallbacks(IVerticalActions instance)
         {
-            if (m_Wrapper.m_GameplayActionsCallbackInterface != null)
+            if (m_Wrapper.m_VerticalActionsCallbackInterface != null)
             {
-                @MoveUp.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveUp;
-                @MoveUp.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveUp;
-                @MoveUp.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveUp;
-                @MoveDown.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveDown;
-                @MoveDown.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveDown;
-                @MoveDown.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMoveDown;
-                @Shoot.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-                @Shoot.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-                @Shoot.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
+                @Left.started -= m_Wrapper.m_VerticalActionsCallbackInterface.OnLeft;
+                @Left.performed -= m_Wrapper.m_VerticalActionsCallbackInterface.OnLeft;
+                @Left.canceled -= m_Wrapper.m_VerticalActionsCallbackInterface.OnLeft;
+                @Right.started -= m_Wrapper.m_VerticalActionsCallbackInterface.OnRight;
+                @Right.performed -= m_Wrapper.m_VerticalActionsCallbackInterface.OnRight;
+                @Right.canceled -= m_Wrapper.m_VerticalActionsCallbackInterface.OnRight;
             }
-            m_Wrapper.m_GameplayActionsCallbackInterface = instance;
+            m_Wrapper.m_VerticalActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @MoveUp.started += instance.OnMoveUp;
-                @MoveUp.performed += instance.OnMoveUp;
-                @MoveUp.canceled += instance.OnMoveUp;
-                @MoveDown.started += instance.OnMoveDown;
-                @MoveDown.performed += instance.OnMoveDown;
-                @MoveDown.canceled += instance.OnMoveDown;
-                @Shoot.started += instance.OnShoot;
-                @Shoot.performed += instance.OnShoot;
-                @Shoot.canceled += instance.OnShoot;
+                @Left.started += instance.OnLeft;
+                @Left.performed += instance.OnLeft;
+                @Left.canceled += instance.OnLeft;
+                @Right.started += instance.OnRight;
+                @Right.performed += instance.OnRight;
+                @Right.canceled += instance.OnRight;
             }
         }
     }
-    public GameplayActions @Gameplay => new GameplayActions(this);
-    public interface IGameplayActions
+    public VerticalActions @Vertical => new VerticalActions(this);
+
+    // Horizontal
+    private readonly InputActionMap m_Horizontal;
+    private IHorizontalActions m_HorizontalActionsCallbackInterface;
+    private readonly InputAction m_Horizontal_Left;
+    private readonly InputAction m_Horizontal_Right;
+    public struct HorizontalActions
     {
-        void OnMoveUp(InputAction.CallbackContext context);
-        void OnMoveDown(InputAction.CallbackContext context);
-        void OnShoot(InputAction.CallbackContext context);
+        private @PlayerControls m_Wrapper;
+        public HorizontalActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Left => m_Wrapper.m_Horizontal_Left;
+        public InputAction @Right => m_Wrapper.m_Horizontal_Right;
+        public InputActionMap Get() { return m_Wrapper.m_Horizontal; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(HorizontalActions set) { return set.Get(); }
+        public void SetCallbacks(IHorizontalActions instance)
+        {
+            if (m_Wrapper.m_HorizontalActionsCallbackInterface != null)
+            {
+                @Left.started -= m_Wrapper.m_HorizontalActionsCallbackInterface.OnLeft;
+                @Left.performed -= m_Wrapper.m_HorizontalActionsCallbackInterface.OnLeft;
+                @Left.canceled -= m_Wrapper.m_HorizontalActionsCallbackInterface.OnLeft;
+                @Right.started -= m_Wrapper.m_HorizontalActionsCallbackInterface.OnRight;
+                @Right.performed -= m_Wrapper.m_HorizontalActionsCallbackInterface.OnRight;
+                @Right.canceled -= m_Wrapper.m_HorizontalActionsCallbackInterface.OnRight;
+            }
+            m_Wrapper.m_HorizontalActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Left.started += instance.OnLeft;
+                @Left.performed += instance.OnLeft;
+                @Left.canceled += instance.OnLeft;
+                @Right.started += instance.OnRight;
+                @Right.performed += instance.OnRight;
+                @Right.canceled += instance.OnRight;
+            }
+        }
+    }
+    public HorizontalActions @Horizontal => new HorizontalActions(this);
+
+    // South
+    private readonly InputActionMap m_South;
+    private ISouthActions m_SouthActionsCallbackInterface;
+    private readonly InputAction m_South_South;
+    public struct SouthActions
+    {
+        private @PlayerControls m_Wrapper;
+        public SouthActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @South => m_Wrapper.m_South_South;
+        public InputActionMap Get() { return m_Wrapper.m_South; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(SouthActions set) { return set.Get(); }
+        public void SetCallbacks(ISouthActions instance)
+        {
+            if (m_Wrapper.m_SouthActionsCallbackInterface != null)
+            {
+                @South.started -= m_Wrapper.m_SouthActionsCallbackInterface.OnSouth;
+                @South.performed -= m_Wrapper.m_SouthActionsCallbackInterface.OnSouth;
+                @South.canceled -= m_Wrapper.m_SouthActionsCallbackInterface.OnSouth;
+            }
+            m_Wrapper.m_SouthActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @South.started += instance.OnSouth;
+                @South.performed += instance.OnSouth;
+                @South.canceled += instance.OnSouth;
+            }
+        }
+    }
+    public SouthActions @South => new SouthActions(this);
+
+    // East
+    private readonly InputActionMap m_East;
+    private IEastActions m_EastActionsCallbackInterface;
+    private readonly InputAction m_East_East;
+    public struct EastActions
+    {
+        private @PlayerControls m_Wrapper;
+        public EastActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @East => m_Wrapper.m_East_East;
+        public InputActionMap Get() { return m_Wrapper.m_East; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(EastActions set) { return set.Get(); }
+        public void SetCallbacks(IEastActions instance)
+        {
+            if (m_Wrapper.m_EastActionsCallbackInterface != null)
+            {
+                @East.started -= m_Wrapper.m_EastActionsCallbackInterface.OnEast;
+                @East.performed -= m_Wrapper.m_EastActionsCallbackInterface.OnEast;
+                @East.canceled -= m_Wrapper.m_EastActionsCallbackInterface.OnEast;
+            }
+            m_Wrapper.m_EastActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @East.started += instance.OnEast;
+                @East.performed += instance.OnEast;
+                @East.canceled += instance.OnEast;
+            }
+        }
+    }
+    public EastActions @East => new EastActions(this);
+    public interface IVerticalActions
+    {
+        void OnLeft(InputAction.CallbackContext context);
+        void OnRight(InputAction.CallbackContext context);
+    }
+    public interface IHorizontalActions
+    {
+        void OnLeft(InputAction.CallbackContext context);
+        void OnRight(InputAction.CallbackContext context);
+    }
+    public interface ISouthActions
+    {
+        void OnSouth(InputAction.CallbackContext context);
+    }
+    public interface IEastActions
+    {
+        void OnEast(InputAction.CallbackContext context);
     }
 }
