@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     public Vector3 spawnPoint;
-    public Scene SampleScene;
+    public Scene Level1;
    
     void Start()
     {
@@ -62,9 +62,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Hit an obstical");
             //transform.position = spawnPoint;
-            Debug.Log(SampleScene.ToString());
+            Debug.Log(Level1.ToString());
 
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Level1");
         }
     }
 }
