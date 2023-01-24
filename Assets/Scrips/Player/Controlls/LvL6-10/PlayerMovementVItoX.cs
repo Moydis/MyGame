@@ -34,7 +34,7 @@ public class PlayerMovementVItoX : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 10, 0);
+            GetComponent<Rigidbody>().velocity = new Vector3(-15, 10, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -47,7 +47,7 @@ public class PlayerMovementVItoX : MonoBehaviour
             if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
             {
 
-                GetComponent<Rigidbody>().velocity = new Vector3(0, 10, 0);
+                GetComponent<Rigidbody>().velocity = new Vector3(-15, 10, 0);
             }
 
 
