@@ -12,8 +12,45 @@ public class PlayerMovementVItoX : MonoBehaviour
     // Start is called before the first frame update
     public Vector3 spawnPoint;
     public Scene Level6;
+    Controller610 Controls;
 
     
+   
+
+    void Awake()
+    {
+        Controls = new Controller610();
+
+        Controls.Gameplay.MoveUp.performed += ctx => MoveUp();
+
+        Controls.Gameplay.MoveDown.performed += ctx => MoveDown();
+
+      
+    }
+
+    void MoveUp()
+    {
+        GetComponent<Rigidbody>().velocity = new Vector3(-15, 10, 0);
+    }
+
+  
+    void MoveDown()
+    {
+        GetComponent<Rigidbody>().velocity = new Vector3(0, -25, 0);
+    }
+
+    void OnEnable()
+    {
+        Controls.Gameplay.Enable();
+        
+    }
+
+    void OnDisable()
+    {
+        Controls.Gameplay.Disable();
+        
+    }
+
     void Start()
     {
 
@@ -31,31 +68,6 @@ public class PlayerMovementVItoX : MonoBehaviour
     void Update()
     {
         
-
-        if (Input.GetKeyDown("space"))
-        {
-            GetComponent<Rigidbody>().velocity = new Vector3(-15, 10, 0);
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, -25, 0);
-        }
-
-        if (Gamepad.all.Count > 0)
-        {
-            if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
-            {
-
-                GetComponent<Rigidbody>().velocity = new Vector3(-15, 10, 0);
-            }
-
-
-            if (Gamepad.all[0].dpad.down.isPressed)
-            {
-                GetComponent<Rigidbody>().velocity = new Vector3(0, -25, 0);
-            }
-        }
     }
     void OnCollisionEnter(Collision collision)
     {
