@@ -22,8 +22,8 @@ public class PlayerMovementVItoX : MonoBehaviour
     {
 
         Cursor.lockState = CursorLockMode.Locked;
-
         spawnPoint = transform.position;
+
         for (int i = 0; i < Gamepad.all.Count; i++)
         {
             Debug.Log(Gamepad.all[i].name);

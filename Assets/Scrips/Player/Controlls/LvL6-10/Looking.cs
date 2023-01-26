@@ -1,45 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Looking : MonoBehaviour
 {
-    public float Sensitivity = 100f;
-    public Transform Llama;
-    float xRotation = 0f;
 
-   
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-        
-        Cursor.lockState = CursorLockMode.Locked;
-    }
+    public float mouseSensititvity = 100f;
 
-    void Awake()
-    {
-        
+    public Transform playerBody;
 
-       
-    }
+    float xRotation = 0f;   
 
-    // Update is called once per frame
     void Update()
     {
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensititvity * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensititvity * Time.deltaTime;
 
-        // Lar musa gå brrrrrrrrrrr
-         float MouseX = Input.GetAxis("Mouse X") * Sensitivity * Time.deltaTime;
-         float MouseY = Input.GetAxis("Mouse Y") * Sensitivity * Time.deltaTime;
+        xRotation -= mouseY;
 
-         xRotation -= MouseY;
-         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        Llama.Rotate(Vector3.up * MouseX);
-
-        
+        transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 }
+
