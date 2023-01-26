@@ -29,12 +29,12 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
             ""actions"": [
                 {
                     ""name"": ""MoveUp"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""945bc76c-285d-4e55-9384-7744b8da4777"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
                     ""name"": ""MoveDown"",
@@ -55,7 +55,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Rotate"",
+                    ""name"": ""rotate"",
                     ""type"": ""Button"",
                     ""id"": ""762d7d9b-fadc-4b25-b0a6-cecd5b953de6"",
                     ""expectedControlType"": ""Button"",
@@ -78,30 +78,8 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""acfaf336-0583-4966-a7d6-3aeb3266d524"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveUp"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""3e98d578-8f18-41c7-b21f-99856810cf03"",
                     ""path"": ""<Gamepad>/dpad/down"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveDown"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e042fce7-d416-4014-b26f-f6d63d8b4ad9"",
-                    ""path"": ""<Keyboard>/leftShift"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -122,23 +100,12 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""df53b289-5a3c-4fe6-a2d1-6ae1e6d1ad2a"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Shoot"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""eafa5cea-72d8-4ffa-a9a6-7ae7e5e511e7"",
                     ""path"": ""<Gamepad>/rightStick/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Rotate"",
+                    ""action"": ""rotate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -149,7 +116,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Rotate"",
+                    ""action"": ""rotate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -160,7 +127,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Rotate"",
+                    ""action"": ""rotate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -171,18 +138,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Rotate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""1c1cfa60-4c3c-4975-8f02-828ae0414035"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Rotate"",
+                    ""action"": ""rotate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -196,7 +152,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
         m_Gameplay_MoveUp = m_Gameplay.FindAction("MoveUp", throwIfNotFound: true);
         m_Gameplay_MoveDown = m_Gameplay.FindAction("MoveDown", throwIfNotFound: true);
         m_Gameplay_Shoot = m_Gameplay.FindAction("Shoot", throwIfNotFound: true);
-        m_Gameplay_Rotate = m_Gameplay.FindAction("Rotate", throwIfNotFound: true);
+        m_Gameplay_rotate = m_Gameplay.FindAction("rotate", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -259,7 +215,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_MoveUp;
     private readonly InputAction m_Gameplay_MoveDown;
     private readonly InputAction m_Gameplay_Shoot;
-    private readonly InputAction m_Gameplay_Rotate;
+    private readonly InputAction m_Gameplay_rotate;
     public struct GameplayActions
     {
         private @Controller610 m_Wrapper;
@@ -267,7 +223,7 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
         public InputAction @MoveUp => m_Wrapper.m_Gameplay_MoveUp;
         public InputAction @MoveDown => m_Wrapper.m_Gameplay_MoveDown;
         public InputAction @Shoot => m_Wrapper.m_Gameplay_Shoot;
-        public InputAction @Rotate => m_Wrapper.m_Gameplay_Rotate;
+        public InputAction @rotate => m_Wrapper.m_Gameplay_rotate;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -286,9 +242,9 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                 @Shoot.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
                 @Shoot.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
                 @Shoot.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-                @Rotate.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotate;
-                @Rotate.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotate;
-                @Rotate.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotate;
+                @rotate.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotate;
+                @rotate.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotate;
+                @rotate.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotate;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -302,9 +258,9 @@ public partial class @Controller610 : IInputActionCollection2, IDisposable
                 @Shoot.started += instance.OnShoot;
                 @Shoot.performed += instance.OnShoot;
                 @Shoot.canceled += instance.OnShoot;
-                @Rotate.started += instance.OnRotate;
-                @Rotate.performed += instance.OnRotate;
-                @Rotate.canceled += instance.OnRotate;
+                @rotate.started += instance.OnRotate;
+                @rotate.performed += instance.OnRotate;
+                @rotate.canceled += instance.OnRotate;
             }
         }
     }

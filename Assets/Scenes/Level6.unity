@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sensitivity: 100
-  playerBody: {fileID: 78719292}
+  Llama: {fileID: 78719292}
 --- !u!1 &892517504
 GameObject:
   m_ObjectHideFlags: 0
