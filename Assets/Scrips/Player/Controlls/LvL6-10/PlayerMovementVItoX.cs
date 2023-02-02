@@ -24,10 +24,10 @@ public class PlayerMovementVItoX : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         spawnPoint = transform.position;
 
-        for (int i = 0; i < Gamepad.all.Count; i++)
-        {
-            Debug.Log(Gamepad.all[i].name);
-        }
+      //  for (int i = 0; i < Gamepad.all.Count; i++)
+      //  {
+       //     Debug.Log(Gamepad.all[i].name);
+      //  }
 
     }
 
@@ -46,21 +46,23 @@ public class PlayerMovementVItoX : MonoBehaviour
         }
 
 
-        // Kontroller 
-        if (Gamepad.all.Count > 0)
-        {
-            if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
-            {
-
-                GetComponent<Rigidbody>().velocity = new Vector3(-25, 10, 0);
-            }
+        // Kontroller kommer snart
 
 
-            if (Gamepad.all[0].dpad.down.isPressed)
-            {
-                GetComponent<Rigidbody>().velocity = new Vector3(-25, -25, 0);
-            }
-        }
+       // if (Gamepad.all.Count > 0)
+       // {
+         //   if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
+          //  {
+
+          //      GetComponent<Rigidbody>().velocity = new Vector3(-25, 10, 0);
+         //   }
+
+
+        //    if (Gamepad.all[0].dpad.down.isPressed)
+       //    {
+       //         GetComponent<Rigidbody>().velocity = new Vector3(-25, -25, 0);
+       //     }
+     //   }
     }
 
     void OnCollisionEnter(Collision collision)
