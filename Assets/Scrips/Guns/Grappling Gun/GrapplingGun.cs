@@ -71,5 +71,16 @@ public class GrapplingGun : MonoBehaviour
         lr.SetPosition(0, gunTip.position);
         lr.SetPosition(1, grapplePoint);
     }
+
+    public bool IsGrappling()
+    {
+        return joint != null;
+    }
+
+    public Vector3 GetGrapplePoint()
+    {
+        return grapplePoint;
+    }
+
 }
 
