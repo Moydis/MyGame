@@ -17,6 +17,8 @@ public class Looking : MonoBehaviour
 
     void Update()
     {
+
+        // Mus () 
         float mouseX = Input.GetAxis("Mouse X") * Sensititvity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * Sensititvity * Time.deltaTime;
 
@@ -25,9 +27,12 @@ public class Looking : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
 
-        
+       
+     
+       
 
-        
+
+
 
     }
        
