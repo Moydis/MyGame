@@ -11,6 +11,7 @@ public class PlayerMovementVItoX : MonoBehaviour
 {
     // Start is called before the first frame update
     public Vector3 spawnPoint;
+
     public Scene Level6;
     
     

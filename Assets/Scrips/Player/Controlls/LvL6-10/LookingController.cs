@@ -11,7 +11,7 @@ public class LookingController : MonoBehaviour
     public Transform playerBody;
 
     float xRotation = 0f;
-
+   
 
 
 
@@ -24,8 +24,9 @@ public class LookingController : MonoBehaviour
         // Kontroller (kommer snart)
          float rightstickX = Input.GetAxis("Right Joystick X") * Sensititvity * Time.deltaTime;
          float rightstickY = Input.GetAxis("Right Joystick Y") * Sensititvity * Time.deltaTime;
-
+    
          xRotation += rightstickY;
+         
 
          transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
          playerBody.Rotate(Vector3.up * rightstickX); 
