@@ -13,57 +13,64 @@ public class PlayerMovementVItoX : MonoBehaviour
     public Vector3 spawnPoint;
 
     public Scene Level6;
-    
-    
-   
 
-   
+    private Rigidbody _rigidbody;
+
+    private Transform _transform;
+
 
     void Start()
     {
 
         Cursor.lockState = CursorLockMode.Locked;
         spawnPoint = transform.position;
+        _rigidbody = GetComponent<Rigidbody>();
+        _transform = transform;
 
-      //  for (int i = 0; i < Gamepad.all.Count; i++)
-      //  {
-       //     Debug.Log(Gamepad.all[i].name);
-      //  }
-
+        /*  for (int i = 0; i < Gamepad.all.Count; i++)
+          {
+             Debug.Log(Gamepad.all[i].name);
+          }
+        */
     }
 
     void Update()
     {
 
         // Keyboard
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(-25, 10, 0);
+            Vector3 forward = _transform.forward * 25;
+            Vector3 upward = _transform.up * 10;
+            _rigidbody.velocity = forward + upward;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(-25, -25, 0);
+            Vector3 forward = _transform.forward * 25;
+            Vector3 downward = _transform.up * -25;
+            _rigidbody.velocity = forward + downward;
         }
 
 
         // Kontroller kommer snart
 
-
-       // if (Gamepad.all.Count > 0)
-       // {
-         //   if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
-          //  {
-
-          //      GetComponent<Rigidbody>().velocity = new Vector3(-25, 10, 0);
-         //   }
-
-
-        //    if (Gamepad.all[0].dpad.down.isPressed)
-       //    {
-       //         GetComponent<Rigidbody>().velocity = new Vector3(-25, -25, 0);
-       //     }
-     //   }
+        /*
+        if (Gamepad.all.Count > 0)
+        {
+            if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
+            {
+                Vector3 forward = _transform.forward * 25;
+                Vector3 upward = _transform.up * 10;
+                _rigidbody.velocity = forward + upward;
+            }
+            if (Gamepad.all[0].dpad.down.isPressed)
+            {
+                Vector3 forward = _transform.forward * 25;
+                Vector3 downward = _transform.up * -25;
+                _rigidbody.velocity = forward + downward;
+            }
+        } */
     }
 
     void OnCollisionEnter(Collision collision)
