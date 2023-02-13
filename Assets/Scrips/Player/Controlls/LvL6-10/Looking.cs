@@ -27,14 +27,19 @@ public class Looking : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
 
-       float rightstickX = Input.GetAxis("Right Joystick X") * Sensititvity * Time.deltaTime;
-         float rightstickY = Input.GetAxis("Right Joystick Y") * Sensititvity * Time.deltaTime;
+
+
+        // Kontroller ()
+        /*
+        float rightstickX = Input.GetAxis("Right Joystick X") * Sensititvity * Time.deltaTime;
+        float rightstickY = Input.GetAxis("Right Joystick Y") * Sensititvity * Time.deltaTime;
     
-         xRotation += rightstickY;
+        xRotation += rightstickY;
          
 
-         transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
-         playerBody.Rotate(Vector3.up * rightstickX); 
+        transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
+        playerBody.Rotate(Vector3.up * rightstickX); 
+        */
      
        
 

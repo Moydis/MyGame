@@ -27,11 +27,11 @@ public class PlayerMovementVItoX : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _transform = transform;
 
-        /*  for (int i = 0; i < Gamepad.all.Count; i++)
+          for (int i = 0; i < Gamepad.all.Count; i++)
           {
              Debug.Log(Gamepad.all[i].name);
           }
-        */
+        
     }
 
     void Update()
@@ -55,7 +55,7 @@ public class PlayerMovementVItoX : MonoBehaviour
 
         // Kontroller kommer snart
 
-        /*
+        
         if (Gamepad.all.Count > 0)
         {
             if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
@@ -70,7 +70,7 @@ public class PlayerMovementVItoX : MonoBehaviour
                 Vector3 downward = _transform.up * -25;
                 _rigidbody.velocity = forward + downward;
             }
-        } */
+        } 
     }
 
     void OnCollisionEnter(Collision collision)
