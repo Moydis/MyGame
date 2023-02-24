@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,3 +13,4 @@ public class RotateGun : MonoBehaviour
         transform.LookAt(grappling.GetGrapplePoint());
     }
 }
+*/
