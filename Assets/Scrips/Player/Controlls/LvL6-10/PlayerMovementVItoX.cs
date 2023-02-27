@@ -14,6 +14,8 @@ public class PlayerMovementVItoX : MonoBehaviour
 
     public Scene Level6;
 
+    public Scene City;
+
     private Rigidbody _rigidbody;
 
     private Transform _transform;
@@ -41,7 +43,7 @@ public class PlayerMovementVItoX : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Vector3 forward = _transform.forward * 25;
-            Vector3 upward = _transform.up * 10;
+            Vector3 upward = _transform.up * 35;
             _rigidbody.velocity = forward + upward;
         }
 
@@ -83,7 +85,14 @@ public class PlayerMovementVItoX : MonoBehaviour
 
             SceneManager.LoadScene("Level6");
         }
+        else if (collision.gameObject.tag == "Secret")
+        {
+            Debug.Log("Hit an obstical");
+            //transform.position = spawnPoint;
+            Debug.Log(City.ToString());
 
+            SceneManager.LoadScene("City");
+        }
 
     }
 }
