@@ -24,8 +24,8 @@ public class PlayerMovementVItoX : MonoBehaviour
     void Start()
     {
 
+       
         Cursor.lockState = CursorLockMode.Locked;
-        spawnPoint = transform.position;
         _rigidbody = GetComponent<Rigidbody>();
         _transform = transform;
 
@@ -43,7 +43,7 @@ public class PlayerMovementVItoX : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Vector3 forward = _transform.forward * 25;
-            Vector3 upward = _transform.up * 35;
+            Vector3 upward = _transform.up * 15;
             _rigidbody.velocity = forward + upward;
         }
 
