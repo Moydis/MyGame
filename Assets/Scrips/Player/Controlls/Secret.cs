@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -18,9 +19,11 @@ public class Secret : MonoBehaviour
 
     private Transform _transform;
 
-    
+    float Speed = 10f;
 
-    
+    float Jump = 15f;
+
+
 
     void Start()
     {
@@ -35,23 +38,28 @@ public class Secret : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            Vector3 forward = _transform.forward * 10;
+            Vector3 forward = _transform.forward * Speed;
             _rigidbody.velocity = forward;
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            Vector3 left = -_transform.right * 10;
+            Vector3 left = -_transform.right * Speed;
             _rigidbody.velocity = left;
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            Vector3 backward = -_transform.forward * 10;
+            Vector3 backward = -_transform.forward * Speed;
             _rigidbody.velocity = backward;
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            Vector3 right = _transform.right * 10;
+            Vector3 right = _transform.right * Speed;
             _rigidbody.velocity = right;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Vector3 upward = _transform.up * Jump;
+            _rigidbody.velocity = upward;
         }
         else
         {
