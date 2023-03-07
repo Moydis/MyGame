@@ -16,6 +16,10 @@ public class PlayerMovementVItoX : MonoBehaviour
 
     public Scene City;
 
+    public float front = 25f;
+    public float up = 15f;
+    public float down = -25f;
+
     private Rigidbody _rigidbody;
 
     private Transform _transform;
@@ -42,15 +46,15 @@ public class PlayerMovementVItoX : MonoBehaviour
         // Keyboard
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Vector3 forward = _transform.forward * 25;
-            Vector3 upward = _transform.up * 15;
+            Vector3 forward = _transform.forward * front;
+            Vector3 upward = _transform.up * up;
             _rigidbody.velocity = forward + upward;
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Vector3 forward = _transform.forward * 25;
-            Vector3 downward = _transform.up * -25;
+            Vector3 forward = _transform.forward * front;
+            Vector3 downward = _transform.up * down;
             _rigidbody.velocity = forward + downward;
         }
 
