@@ -1928,7 +1928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a5b147d667dfa4ea7fe76550e4640f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sensititvity: 500
+  Sensititvity: 100
   playerBody: {fileID: 2031208049}
 --- !u!81 &1783106821
 AudioListener:
@@ -2313,6 +2313,9 @@ MonoBehaviour:
     m_Handle: 0
   City:
     m_Handle: 0
+  front: 25
+  up: 15
+  down: -25
 --- !u!1 &2049891335
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,7 +2443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
