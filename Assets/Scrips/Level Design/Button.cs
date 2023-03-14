@@ -5,7 +5,7 @@ public class Button : MonoBehaviour
     public float health = 50f;
 
     public GameObject[] doors;
-
+    public GameObject[] platform;
     public void TakeDamage(float amount)
     {
         health -= amount;
@@ -22,6 +22,10 @@ public class Button : MonoBehaviour
         foreach(var door in doors)
         {
             door.SetActive(false);
+        }
+        foreach (var platform in platform)
+        {
+            platform.SetActive(true);
         }
     }
 
