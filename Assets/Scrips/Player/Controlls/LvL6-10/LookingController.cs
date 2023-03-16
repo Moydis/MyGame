@@ -10,40 +10,27 @@ public class LookingController : MonoBehaviour
 
     public float sensitivity = 5.0f;
 
+    public GameObject controller;
+    public Rigidbody controllerRigidbody;
+    
 
-    public Transform playerBody;
-
-    float xRotation = 0f;
+    
 
 
     void Start()
     {
-        
-       
-        
+        controllerRigidbody = controller.GetComponent<Rigidbody>();
     }
 
-
-    void Update()
+    void FixedUpdate()
     {
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+        Vector3 targetPosition = controllerRigidbody.position + controllerRigidbody.transform.TransformDirection(direction) * sensitivity;
 
-
-
-        // Kontroller (kommer snart)
-        float rightstickX = Input.GetAxis("Right Joystick X") * sensitivity * Time.deltaTime;
-        float rightstickY = Input.GetAxis("Right Joystick Y") * sensitivity * Time.deltaTime;
-
-        xRotation += rightstickY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        transform.localRotation = Quaternion.Euler(xRotation, -90f, 0f);
-        playerBody.Rotate(Vector3.up * rightstickX);
-        
-
-
-
-       
+        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime);
     }
 
 }
