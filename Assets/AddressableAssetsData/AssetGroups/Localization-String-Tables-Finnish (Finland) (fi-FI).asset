@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Finnish (Finland) (fi-FI)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Finnish (Finland) (fi-FI)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4d83979aaaaf3b243aa56e4608df0324
+  m_SerializeEntries:
+  - m_GUID: 1bc77b9d174962b42b7a8eb661feac64
+    m_Address: StringTestTable_fi-FI
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi-FI
+    - Preload
+  - m_GUID: 22e529286c7cb3542a01c77aa2565cd0
+    m_Address: StringExampleTable_fi-FI
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi-FI
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: cedb52de0f786274c8c72116e34a88c4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 18693a7060fc20c4ea0288a545e1b355, type: 2}
+    - {fileID: 11400000, guid: d8f6a885cb466e845a984c38fc75e1d3, type: 2}
