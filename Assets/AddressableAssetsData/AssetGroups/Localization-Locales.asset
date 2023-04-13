@@ -17,43 +17,48 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: dcca9690d95456248b404172562a741c
   m_SerializeEntries:
+  - m_GUID: 689297422fb442b4082efb245d85d5ce
+    m_Address: German (de)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
   - m_GUID: 923b9b8548a3f944786c2c44fe9d3473
     m_Address: Swedish (sv)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 10462fc920ba72a498c8dfcfe6df85c4
-    m_Address: German (Germany) (de-DE)
+  - m_GUID: 3187df42c060aa744a1fcfe915131834
+    m_Address: Binary (00111010)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: bf30ac7e20e626f47addbfbac5354a86
-    m_Address: English (United States) (en-US)
+  - m_GUID: 0df2f0552f67b12428d5572687658587
+    m_Address: Morse (...---...)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 731f0d2d46c67bf4f900beac137c7448
-    m_Address: Finnish (Finland) (fi-FI)
+  - m_GUID: 6cd9dbe2f47c3594188d84cccf1b2e9a
+    m_Address: Spanish (es)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: a4828c97ac3fa6146959bc18290add54
-    m_Address: Spanish (Spain) (es-ES)
+  - m_GUID: 3c2a5ca3cf0f8254591aaf77ad5fb379
+    m_Address: Finnish (fi)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 57b9ff4c9a9258c4fac3fcc553829a96
-    m_Address: "Norwegian Bokm\xE5l (nb)"
+  - m_GUID: 83c7513454ca1d64185fb7060aefe6b7
+    m_Address: English (en)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 08e1559ba6aa2a943baf7223946b068e
-    m_Address: binary code (BC)
+  - m_GUID: 1a7cb55b8f02e6f46b79b209ebc15fa2
+    m_Address: Norwegian (no)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 7e6be86e552f2ed4f9345fc8e600a234
-    m_Address: Morse Code (MSC)
+  - m_GUID: 98e03550a3198e54388287eaa7497ad9
+    m_Address: "\u0265s\u1D09l\u0183u\u018E (u\u01DD)"
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

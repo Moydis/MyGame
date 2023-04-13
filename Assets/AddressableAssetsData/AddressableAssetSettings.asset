@@ -53,6 +53,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f8501faeb9319374cacc7dd22fcc87d4, type: 2}
   - {fileID: 11400000, guid: 48abb534b636bc24388a620ccd107373, type: 2}
   - {fileID: 11400000, guid: 1c87a2d9db7df5d4981fd780d5b523ce, type: 2}
+  - {fileID: 11400000, guid: 1f13651a95d20864099fe6478282ee10, type: 2}
+  - {fileID: 11400000, guid: 3353192d22b2eda46a8c9915a920c435, type: 2}
+  - {fileID: 11400000, guid: 071cbe4d3db9f304b950c3655237fd54, type: 2}
+  - {fileID: 11400000, guid: 8b4e7fa1d80e04045a1f314ae479cb3d, type: 2}
+  - {fileID: 11400000, guid: 9c71bfe721b30a14fb4106b99cdfcc91, type: 2}
+  - {fileID: 11400000, guid: 436e5cc3617fea5409675479cb2e6b40, type: 2}
+  - {fileID: 11400000, guid: 5e4bbf319e6b4e7489955ad2270bcf89, type: 2}
+  - {fileID: 11400000, guid: bad32a874039dc5439dcdeceed1729e4, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -104,6 +112,14 @@ MonoBehaviour:
     - Locale-es-ES
     - Locale-sv
     - Locale-BC
+    - Locale-en
+    - Locale-es
+    - Locale-de
+    - Locale-no
+    - Locale-fi
+    - Locale-00111010
+    - Locale-...---...
+    - "Locale-u\u01DD"
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 91a01d3a90bcd584e97c245eddde4ef7, type: 2}

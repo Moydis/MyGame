@@ -16,19 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: f02eeef8ec5c98e45b7398d9da0cb9a7
-  m_SerializeEntries:
-  - m_GUID: 4606f2e88a642d54e922edb4ddecf843
-    m_Address: StringTestTable_MSC
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-MSC
-    - Preload
-  - m_GUID: a378d030c21618741a84f241e117ddf6
-    m_Address: StringExampleTable_MSC
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-MSC
-    - Preload
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: cedb52de0f786274c8c72116e34a88c4, type: 2}
   m_SchemaSet:

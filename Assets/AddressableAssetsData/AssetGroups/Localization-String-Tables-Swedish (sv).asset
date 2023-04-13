@@ -17,14 +17,14 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 6b88fc4063a8b1d41bb07bd63ac733ca
   m_SerializeEntries:
-  - m_GUID: 19471a2041e33e34fa9dd3929158ddd8
-    m_Address: StringTestTable_sv
+  - m_GUID: 818ecbbacb167144eae9c567e7f9d3ad
+    m_Address: Game_sv
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-sv
     - Preload
-  - m_GUID: c89c97a073d4d0e42b8624027692c96f
-    m_Address: StringExampleTable_sv
+  - m_GUID: 1dab7a862b140914f883f401d72fe726
+    m_Address: Translate_sv
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-sv
