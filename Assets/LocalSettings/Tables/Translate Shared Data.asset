@@ -23,6 +23,26 @@ MonoBehaviour:
     m_Key: Back
     m_Metadata:
       m_Items: []
+  - m_Id: 287890735865856
+    m_Key: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287915037663232
+    m_Key: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287939796639744
+    m_Key: Control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288075268464640
+    m_Key: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353128445353984
+    m_Key: Quit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

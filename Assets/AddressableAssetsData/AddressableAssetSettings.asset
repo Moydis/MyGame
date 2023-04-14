@@ -61,6 +61,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 436e5cc3617fea5409675479cb2e6b40, type: 2}
   - {fileID: 11400000, guid: 5e4bbf319e6b4e7489955ad2270bcf89, type: 2}
   - {fileID: 11400000, guid: bad32a874039dc5439dcdeceed1729e4, type: 2}
+  - {fileID: 11400000, guid: 4ec645e02dd1a9d4e950045844d6ef22, type: 2}
+  - {fileID: 11400000, guid: baf7b8a9531790b45bd0687f884ae6c5, type: 2}
+  - {fileID: 11400000, guid: da29a9bcc5e231f4ab2f72ef67207841, type: 2}
+  - {fileID: 11400000, guid: b7463fe143b052546890240fed5a3744, type: 2}
+  - {fileID: 11400000, guid: fbbdc6e56c234df478d3b66eff3923b2, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -120,6 +125,11 @@ MonoBehaviour:
     - Locale-00111010
     - Locale-...---...
     - "Locale-u\u01DD"
+    - Locale-da
+    - Locale-fr
+    - Locale-is
+    - Locale-sk
+    - Locale-sl
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 91a01d3a90bcd584e97c245eddde4ef7, type: 2}

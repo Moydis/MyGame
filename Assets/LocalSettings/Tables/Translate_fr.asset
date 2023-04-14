@@ -10,38 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Translate_en
+  m_Name: Translate_fr
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
+    m_Code: fr
   m_SharedData: {fileID: 11400000, guid: 4b16caf2fba998541ab2f5159d410569, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 43214675968
-    m_Localized: Language
-    m_Metadata:
-      m_Items: []
-  - m_Id: 81663860736
-    m_Localized: Back
-    m_Metadata:
-      m_Items: []
-  - m_Id: 287890735865856
-    m_Localized: Play
-    m_Metadata:
-      m_Items: []
-  - m_Id: 287915037663232
-    m_Localized: Options
-    m_Metadata:
-      m_Items: []
-  - m_Id: 287939796639744
-    m_Localized: Control
-    m_Metadata:
-      m_Items: []
-  - m_Id: 288075268464640
-    m_Localized: About
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

@@ -62,6 +62,31 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
+  - m_GUID: 72663b966ec53c648b7f2d3d106e062e
+    m_Address: Danish (da)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: 2ac4fede92186fe4ba2df30d68c1b702
+    m_Address: French (fr)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: f607bb7cf85409243840dcdfcf7a68ca
+    m_Address: Icelandic (is)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: 1efa56a546de2fd4984dfb6a4123d597
+    m_Address: Slovak (sk)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: 46e81a16ba36c65499b31abfc2fd903c
+    m_Address: Slovenian (sl)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: cedb52de0f786274c8c72116e34a88c4, type: 2}
   m_SchemaSet:
