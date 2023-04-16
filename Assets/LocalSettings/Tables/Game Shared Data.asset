@@ -14,7 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Game
   m_TableCollectionNameGuidString: bfc68234f5822b84595ef52094a2e713
-  m_Entries: []
+  m_Entries:
+  - m_Id: 1117726212517888
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117729135947776
+    m_Key: New Entry 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117732407504896
+    m_Key: New Entry 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117734827618304
+    m_Key: New Entry 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117739944669184
+    m_Key: New Entry 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117746588446720
+    m_Key: New Entry 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117812388687872
+    m_Key: New Entry 6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117816293584896
+    m_Key: New Entry 7
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
