@@ -43,6 +43,42 @@ MonoBehaviour:
     m_Key: Quit
     m_Metadata:
       m_Items: []
+  - m_Id: 1414721002250240
+    m_Key: Fun slidebar yay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721430069248
+    m_Key: Mouse and keyboards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414722122129408
+    m_Key: Joystick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414724101840896
+    m_Key: Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414725393686528
+    m_Key: Shift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726039609344
+    m_Key: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726601646080
+    m_Key: Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424833590829056
+    m_Key: Shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424857368338432
+    m_Key: Custom joysticks
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

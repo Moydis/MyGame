@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 43214675968
-    m_Localized: Idioma
+    m_Localized: Idioma(beta)
     m_Metadata:
       m_Items: []
   - m_Id: 81663860736
@@ -43,7 +43,59 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 353128445353984
-    m_Localized: Quit
+    m_Localized: 'Salir del juego
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721002250240
+    m_Localized: 'Divertido Slidebar ja
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721430069248
+    m_Localized: "Rat\xF3n y teclado\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414722122129408
+    m_Localized: 'Controlador de juego
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414724101840896
+    m_Localized: 'Barra espaciadora
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414725393686528
+    m_Localized: 'Shift
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726039609344
+    m_Localized: 'Saltar
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726601646080
+    m_Localized: 'Caer
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424833590829056
+    m_Localized: 'Disparar
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424857368338432
+    m_Localized: "Controles personalizados pr\xF3ximamente\r\n"
     m_Metadata:
       m_Items: []
   references:
