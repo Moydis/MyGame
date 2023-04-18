@@ -98,6 +98,28 @@ MonoBehaviour:
     m_Localized: "Controles personalizados pr\xF3ximamente\r\n"
     m_Metadata:
       m_Items: []
+  - m_Id: 1717725754601472
+    m_Localized: "Medios de comunicaci\xF3n social"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1717728778694656
+    m_Localized: 'Sobre el creador
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778743469977600
+    m_Localized: 'Subir Dpad
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778746410184704
+    m_Localized: 'Abajo Dpad
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

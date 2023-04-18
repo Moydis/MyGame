@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 43214675968
-    m_Localized: Kieli
+    m_Localized: Kieli(beta)
     m_Metadata:
       m_Items: []
   - m_Id: 81663860736
@@ -43,7 +43,75 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 353128445353984
-    m_Localized: Quit
+    m_Localized: 'Lopettaa
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721002250240
+    m_Localized: "Vitun liukum\xE4ki\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721430069248
+    m_Localized: "Hiiri ja n\xE4pp\xE4imist\xF6\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414722122129408
+    m_Localized: 'Peliohjain
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414724101840896
+    m_Localized: "V\xE4lily\xF6nti\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414725393686528
+    m_Localized: 'Shift
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726039609344
+    m_Localized: "Hyp\xE4t\xE4\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726601646080
+    m_Localized: 'Kaatuminen
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424833590829056
+    m_Localized: 'Ammu aseella
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424857368338432
+    m_Localized: 'Mukautetut ohjausobjektit tulossa pian
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1717725754601472
+    m_Localized: 'Sosiaalinen media
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1717728778694656
+    m_Localized: "Tietoja sis\xE4ll\xF6ntuottajasta\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778743469977600
+    m_Localized: "Yl\xF6s Dpad\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778746410184704
+    m_Localized: 'Alas Dpad
+
+'
     m_Metadata:
       m_Items: []
   references:

@@ -43,7 +43,79 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 353128445353984
-    m_Localized: Quit
+    m_Localized: Spiel beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721002250240
+    m_Localized: 'Lustige Schiebeleiste haha
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414721430069248
+    m_Localized: 'Maus und Tastatur
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414722122129408
+    m_Localized: 'Controller
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414724101840896
+    m_Localized: 'Leertaste
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414725393686528
+    m_Localized: 'Shift
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726039609344
+    m_Localized: 'Springen
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414726601646080
+    m_Localized: 'Herab
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424833590829056
+    m_Localized: "Schie\xDFen\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424857368338432
+    m_Localized: "Benutzerdefinierte Steuerelemente folgen in K\xFCrze\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1717725754601472
+    m_Localized: 'Soziale Medien
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1717728778694656
+    m_Localized: "\xDCber den Ersteller\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778743469977600
+    m_Localized: 'Nach oben Dpad
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1778746410184704
+    m_Localized: 'Dpad nach unten
+
+'
     m_Metadata:
       m_Items: []
   references:
