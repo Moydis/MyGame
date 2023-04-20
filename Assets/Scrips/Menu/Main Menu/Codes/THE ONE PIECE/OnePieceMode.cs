@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,7 +7,7 @@ public class OnePieceMode : MonoBehaviour
 {
     private OnePieceCode code;
 
-    public Button OnePiece;
+    public GameObject OnePiece;
 
     void Awake()
     {

@@ -7,16 +7,16 @@ public class OnePieceCode : MonoBehaviour
 
     private KeyCode[] keys = new KeyCode[]
     {
-        KeyCode.UpArrow,
-        KeyCode.UpArrow,
-        KeyCode.DownArrow,
-        KeyCode.DownArrow,
-        KeyCode.LeftArrow,
-        KeyCode.RightArrow,
-        KeyCode.LeftArrow,
-        KeyCode.RightArrow,
-        KeyCode.B,
-        KeyCode.B
+        KeyCode.O,
+        KeyCode.N,
+        KeyCode.E,
+        KeyCode.Space,
+        KeyCode.P,
+        KeyCode.I,
+        KeyCode.E,
+        KeyCode.C,
+        KeyCode.E,
+       
     };
 
     public bool success;
