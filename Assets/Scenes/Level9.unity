@@ -4112,7 +4112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementDistance: 15
-  speed: 1
+  speed: 0.1
 --- !u!1 &1290961376
 GameObject:
   m_ObjectHideFlags: 0
