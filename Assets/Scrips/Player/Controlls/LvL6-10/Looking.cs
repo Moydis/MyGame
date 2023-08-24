@@ -35,6 +35,8 @@ public class Looking : MonoBehaviour
         playerBody.Rotate(Vector3.up * mouseX);
 
         // Kontroller (virker greit men kameraet beveger av seg selv når denne leggest til)
+
+        /*
         float stickX = Input.GetAxis("Right Joystick X") * Sensititvity * Time.deltaTime;
         float stickY = Input.GetAxis("Right Joystick Y") * Sensititvity * Time.deltaTime;
 
@@ -44,7 +46,7 @@ public class Looking : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * stickX);
 
-       
+       */
 
     }
 
