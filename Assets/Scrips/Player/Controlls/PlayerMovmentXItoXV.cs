@@ -1,22 +1,19 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
-using Cursor = UnityEngine.Cursor;
 
-public class PlayerMovementVItoX : MonoBehaviour
+public class PlayerMovmentXItoXV : MonoBehaviour
 {
     // Start is called before the first frame update
     public Vector3 spawnPoint;
 
-    public Scene Level6;
+    
 
     public Scene Level11;
 
-    public Scene City;
+    
 
     public float front = 25f;
     public float up = 15f;
@@ -30,16 +27,16 @@ public class PlayerMovementVItoX : MonoBehaviour
     void Start()
     {
 
-       
+
         Cursor.lockState = CursorLockMode.Locked;
         _rigidbody = GetComponent<Rigidbody>();
         _transform = transform;
 
-          for (int i = 0; i < Gamepad.all.Count; i++)
-          {
-             Debug.Log(Gamepad.all[i].name);
-          }
-        
+        for (int i = 0; i < Gamepad.all.Count; i++)
+        {
+            Debug.Log(Gamepad.all[i].name);
+        }
+
     }
 
     void Update()
@@ -63,7 +60,7 @@ public class PlayerMovementVItoX : MonoBehaviour
 
         // Kontroller kommer snart
 
-        
+        /*
         if (Gamepad.all.Count > 0)
         {
             if (Gamepad.all[0].dpad.up.wasPressedThisFrame)
@@ -78,27 +75,13 @@ public class PlayerMovementVItoX : MonoBehaviour
                 Vector3 downward = _transform.up * -25;
                 _rigidbody.velocity = forward + downward;
             }
-        } 
+        }
+        */
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Obstical2")
-        {
-            Debug.Log("Hit an obstical");
-            //transform.position = spawnPoint;
-            Debug.Log(Level6.ToString());
 
-            SceneManager.LoadScene("Level6");
-        }
-        else if (collision.gameObject.tag == "Secret")
-        {
-            Debug.Log("Hit an obstical");
-            //transform.position = spawnPoint;
-            Debug.Log(City.ToString());
-
-            SceneManager.LoadScene("City");
-        }
         if (collision.gameObject.tag == "Obstical3")
         {
             Debug.Log("Hit an obstical");

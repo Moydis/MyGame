@@ -8,6 +8,7 @@ TagManager:
   - Obstical2
   - Level9
   - Secret
+  - Obstical3
   layers:
   - Default
   - TransparentFX
